@@ -1,18 +1,11 @@
-## Getting Started
+Here is my repository to play my games!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here are the games:
+1. Buzzfeed Quiz
+   How brainrotted are you? Take this quiz to find out! This simple Buzzfeed style quiz is just eight questions long and is tons of fun!
 
-## Folder Structure
+2. Number Guessing Game
+   I'm thinking of a number from 1-100. Can you guess it? Try this game out if you want to see whether or not you're smart enough to guess the right number!
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. Blackjack
+    Do you like gambling? Do you like cards? Well then come test your luck and play Blackjack! This game is just like regular Blackjack just with no gambling! Come see if you can beat the computer dealer!
