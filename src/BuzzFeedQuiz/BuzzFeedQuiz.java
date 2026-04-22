@@ -13,12 +13,8 @@ public boolean isHighScore(String score, String currentHighScore){
 
         return currentScore > highScore;
 }
-String getGameName(String name){
-        return "BuzzFeedQuiz";
-}
-String getScore(){
-        String s = String.valueOf(maxIndex);
-        return s;
+public String getGameName( ){
+        return "BuzzFeed Quiz";
 }
 public void play(){
                 // Categories for answers
@@ -95,7 +91,7 @@ public void play(){
                         c.points++;
                 }
                 
-                Category[] cList = { Brainrotted0, Brainrotted25, Brainrotted75, Brainrotted100 };
+                Category[] cList = { Brainrotted6, Brainrotted41, Brainrotted67, Brainrotted99};
                 int index = getMostPopularCatIndex(cList);
                 System.out.println("ON THE CHRONICALLY ONLINE SPECTRUM, YOU ARE: " + cList[index].label + "!!!!");
                 System.out.println(cList[index].description);
@@ -123,6 +119,10 @@ public void play(){
                         }
                 }
                 return maxIndex;
+        }
+        @Override
+        public String getScore() {
+                return null;
         }
         
 }
