@@ -1,4 +1,4 @@
-package src;
+package BuzzFeedQuiz;
 
 public class Answer {
     String label;

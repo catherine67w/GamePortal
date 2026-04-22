@@ -1,4 +1,4 @@
-package src;
+package BuzzFeedQuiz;
 
 import java.util.Scanner;
 
